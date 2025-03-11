@@ -100,13 +100,24 @@ header > .logo-header {
   display: block;
 }
 
-.front-card .heart {
+.heart {
   position: absolute;
   top: 40px;
-  right: 31px;
+  right: 16px;
   background-color: white;
   color: black;
   z-index: 30;
+}
+.heart-hidden {
+  position: absolute;
+  top: 40px;
+  right: 16px;
+  background-color: white;
+  color: red;
+  z-index: 29;
+}
+.heart:hover {
+  display: none;
 }
 
 .front-card .card-discount {
