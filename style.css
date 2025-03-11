@@ -80,10 +80,35 @@ header > .logo-header {
   align-items: center;
 }
 
-.ragazzo-maglia-lewis {
+.front-card {
   max-width: calc(100% / 3);
   padding: 30px 30px;
+  position: relative;
 }
+
+.front-card .heart {
+  position: absolute;
+  top: 40px;
+  right: 31px;
+  background-color: white;
+  color: black;
+}
+
+.front-card .card-discount {
+  position: absolute;
+  bottom: 90px;
+  left: 30px;
+  background-color: red;
+  color: white;
+}
+.front-card .eco {
+  position: absolute;
+  bottom: 90px;
+  left: 80px;
+  background-color: green;
+  color: white;
+}
+
 .ragazza-bionda-maglia-guess {
   max-width: calc(100% / 3);
   padding: 30px 30px;
