@@ -25,13 +25,21 @@ ul {
   padding-left: 10px;
   padding-right: 10px;
 }
+.rosso {
+  color: red;
+}
+.sbarrato {
+  text-decoration: line-through;
+}
+p {
+  display: inline;
+}
 /* fine utility */
 
 /* header */
 header {
   background-color: orangered;
   min-height: 80px;
-  max-width: calc(100% / 3);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -58,4 +66,25 @@ header > .link-header * {
 }
 header > .logo-header {
   padding-right: 80px;
+}
+/* fine header */
+
+/* prima riga */
+.first-row-first-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ragazzo-maglia-lewis {
+  max-width: calc(100% / 3);
+  padding: 30px 30px;
+}
+.ragazza-bionda-maglia-guess {
+  max-width: calc(100% / 3);
+  padding: 30px 30px;
+}
+.ragazza-nera-verde-pisacchio {
+  max-width: calc(100% / 3);
+  padding: 30px 30px;
 }
