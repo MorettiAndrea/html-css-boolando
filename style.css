@@ -82,8 +82,22 @@ header > .logo-header {
 
 .front-card {
   max-width: calc(100% / 3);
-  padding: 30px 30px;
+  padding: 30px 15px;
   position: relative;
+  z-index: 10;
+}
+.hidden-card {
+  display: none;
+  padding: 30px 15px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.front-card:hover .hidden-card {
+  display: block;
 }
 
 .front-card .heart {
@@ -92,6 +106,7 @@ header > .logo-header {
   right: 31px;
   background-color: white;
   color: black;
+  z-index: 30;
 }
 
 .front-card .card-discount {
@@ -100,6 +115,7 @@ header > .logo-header {
   left: 30px;
   background-color: red;
   color: white;
+  z-index: 30;
 }
 .front-card .eco {
   position: absolute;
@@ -107,16 +123,9 @@ header > .logo-header {
   left: 80px;
   background-color: green;
   color: white;
+  z-index: 30;
 }
 
-.ragazza-bionda-maglia-guess {
-  max-width: calc(100% / 3);
-  padding: 30px 30px;
-}
-.ragazza-nera-verde-pisacchio {
-  max-width: calc(100% / 3);
-  padding: 30px 30px;
-}
 /* fine prima riga pag 1 */
 
 /* seconda riga pag 2 */
@@ -126,18 +135,6 @@ header > .logo-header {
   align-items: center;
 }
 
-.ragazzo-nero-maglia-lewis {
-  max-width: calc(100% / 3);
-  padding: 30px 30px;
-}
-.ragazza-bianca-elegante {
-  max-width: calc(100% / 3);
-  padding: 30px 30px;
-}
-.ragazza-nera-elegante {
-  max-width: calc(100% / 3);
-  padding: 30px 30px;
-}
 /* fine main */
 
 /* footer */
