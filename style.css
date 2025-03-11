@@ -12,6 +12,9 @@ img {
 ul {
   list-style-type: none;
 }
+p {
+  display: inline;
+}
 /* /setup generali */
 
 /* utility */
@@ -31,9 +34,10 @@ ul {
 .sbarrato {
   text-decoration: line-through;
 }
-p {
-  display: inline;
+.piccolo {
+  font-size: 0.7rem;
 }
+
 /* fine utility */
 
 /* header */
@@ -69,7 +73,7 @@ header > .logo-header {
 }
 /* fine header */
 
-/* prima riga */
+/* prima riga pag 1 */
 .first-row-first-page {
   display: flex;
   justify-content: space-around;
@@ -85,6 +89,27 @@ header > .logo-header {
   padding: 30px 30px;
 }
 .ragazza-nera-verde-pisacchio {
+  max-width: calc(100% / 3);
+  padding: 30px 30px;
+}
+/* fine prima riga pag 1 */
+
+/* seconda riga pag 2 */
+.second-row-first-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ragazzo-nero-maglia-lewis {
+  max-width: calc(100% / 3);
+  padding: 30px 30px;
+}
+.ragazza-bianca-elegante {
+  max-width: calc(100% / 3);
+  padding: 30px 30px;
+}
+.ragazza-nera-elegante {
   max-width: calc(100% / 3);
   padding: 30px 30px;
 }
