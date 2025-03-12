@@ -46,12 +46,20 @@ header {
   min-height: 80px;
   color: white;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 li {
   display: inline;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-header {
+  text-align: center;
 }
 
 .logo-boolean {
@@ -71,13 +79,18 @@ header > .link-header * {
 header > .logo-header {
   padding-right: 80px;
 }
+.header-item {
+  flex: 1 1 0;
+}
+.icon-header {
+  text-align: right;
+}
 /* fine header */
 
-/* prima riga pag 1 */
-.first-row-first-page {
+/* main */
+.row {
+  margin: 0 93px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .front-card {
@@ -135,15 +148,6 @@ header > .logo-header {
   background-color: green;
   color: white;
   z-index: 30;
-}
-
-/* fine prima riga pag 1 */
-
-/* seconda riga pag 2 */
-.second-row-first-page {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 /* fine main */
